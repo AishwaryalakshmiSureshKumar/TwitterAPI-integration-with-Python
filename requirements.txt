@@ -1,0 +1,4 @@
+python==3.9.5
+Django==3.2.4
+tweepy==4.0.1
+djangorestframework==3.12.4
