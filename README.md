@@ -9,7 +9,13 @@ Clone the git repository to run in your local
 
 In order to run the samples in this repository, need to set up some environment variables. Able to find your credentials in the App inside of your Project in the dashboard of the developer portal.
 
-Be sure to replace <CONSUMER_KEY>, <CONSUMER_SECRET>, <ACCESS_TOKEN> and<ACCESS_TOKEN_SECRET> with your own credentials without the < >.
+Be sure to replace <CONSUMER_KEY>, <CONSUMER_SECRET>, <ACCESS_TOKEN> and<ACCESS_TOKEN_SECRET> with your own credentials without the < > in twitterproject/settings.py.
+
+You can find the keys in twitterproject/settings.py as:
+CONSUMER_KEY = 'XXXXXXXXXXXXXXXXXX'
+CONSUMER_SECRET = 'XXXXXXXXXXXXXXX'
+ACCESS_TOKEN = 'XXXXXXXXXXXXXX'
+ACCESS_TOKEN_SECRET = 'XXXXXXXXXXXXXX'
 
 **Requirements**
 
