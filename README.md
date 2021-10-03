@@ -1,10 +1,13 @@
 # TwitterAPI-integration-with-Python
 
 **Prerequisites**
+
 Twitter Developer account: if you don’t have one already, you can apply for one.
+
 A Project and an App created in the dashboard.
 
 **Using the code samples**
+
 Clone the git repository to run in your local
 
 In order to run the samples in this repository, need to set up some environment variables. Able to find your credentials in the App inside of your Project in the dashboard of the developer portal.
