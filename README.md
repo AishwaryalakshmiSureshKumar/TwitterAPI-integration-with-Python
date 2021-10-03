@@ -12,9 +12,13 @@ In order to run the samples in this repository, need to set up some environment 
 Be sure to replace <CONSUMER_KEY>, <CONSUMER_SECRET>, <ACCESS_TOKEN> and<ACCESS_TOKEN_SECRET> with your own credentials without the < > in twitterproject/settings.py.
 
 You can find the keys in twitterproject/settings.py as:
+
 CONSUMER_KEY = 'XXXXXXXXXXXXXXXXXX'
+
 CONSUMER_SECRET = 'XXXXXXXXXXXXXXX'
+
 ACCESS_TOKEN = 'XXXXXXXXXXXXXX'
+
 ACCESS_TOKEN_SECRET = 'XXXXXXXXXXXXXX'
 
 **Requirements**
@@ -22,7 +26,9 @@ ACCESS_TOKEN_SECRET = 'XXXXXXXXXXXXXX'
 Python with version 3.9.5 is required to run this code. Django version 3.2.4, djangorestframework version 3.12.4 and tweepy version 4.0.1 are also required.
 
 Inorder to install all the above stated, please run below command:
+
 cd twitterproject
+
 pip install requirements.txt
 
 **Documentation**
@@ -32,11 +38,13 @@ This Project is done in Python language on top of Django framework. For APIs, Dj
 Created a project named 'twitterproject' and an app named 'tweetapp'. The endpoints and the required RESTful APIs can be found inside tweetapp. Included the tweetapp urls inside twitterproject.
 
 The endpoints can be found inside tweetapp/urls.py
+
 APIs can be found inside tweetapp/views.py
 
 **Running the project**
 
 Before running the curl command, make sure to run the project through below command:
+
 python3 manage.py runserver
 
 
